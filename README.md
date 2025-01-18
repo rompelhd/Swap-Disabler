@@ -34,7 +34,7 @@
 
   - **Extended Flash Memory Lifespan**: Frequent writes to swap partitions can accelerate flash storage wear. Disabling swap significantly reduces this degradation, helping to prolong the lifespan of your device's memory.
   
-  - **Eco-Friendly**: By minimizing unnecessary writes to storage, the module contributes to reducing electronic waste (eco-waste), making it a sustainable choice for environmentally conscious users.
+  - **Eco-Friendly**: By minimizing unnecessary writes to storage, the module contributes to reducing electronic waste, making it a sustainable choice for environmentally conscious users.
   
   - **Performance Improvement**: In certain conditions, particularly for devices with substantial RAM, disabling swap can lead to better overall system performance by avoiding reliance on slower storage-based memory.
   
