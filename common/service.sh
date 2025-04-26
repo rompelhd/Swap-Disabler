@@ -13,10 +13,5 @@ swaps=$(cat /proc/swaps | tail -n +2 | awk '{print $1}')
 [ -z "$swaps" ] && exit 0
 
 for swap in $swaps; do
-    swapoff $swap
-    if [ $? -eq 0 ]; then
-        echo "Swap disabled: $swap"
-    else
-        echo "Error: $swap"
-    fi
+    swapoff "$swap" && echo "Swap disabled: $swap" || echo "Error: $swap"
 done
