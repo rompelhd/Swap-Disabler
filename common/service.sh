@@ -10,9 +10,7 @@ boot
 
 swaps=$(cat /proc/swaps | tail -n +2 | awk '{print $1}')
 
-if [ -z "$swaps" ]; then
-  exit 0
-fi
+[ -z "$swaps" ] && exit 0
 
 for swap in $swaps; do
     swapoff $swap
