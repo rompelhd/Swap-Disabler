@@ -41,6 +41,18 @@
   - **Flash Memory Durability**: Flash memory typically has between 3,000 and 100,000 write cycles. Disabling swap reduces the number of write cycles used for virtual memory, potentially increasing the lifespan of your device's storage by 20% to 40%, depending on usage.
 
 </p>
+</br>
+
+| Standard      | Read (MB/s)  | Write (MB/s)     | Approx. TBW     | Write Cycles     | Commonly Used In         |
+|-------------- |--------------|------------------|------------------|------------------|---------------------------|
+| **eMMC 5.0**  | ~150         | ~40–60           | 100–200 TBW      | ~3,000 cycles    | Low-end (2014–2017)       |
+| **eMMC 5.1**  | ~250         | ~100–125         | 200–300 TBW      | ~3,000–5,000      | Mid-range                 |
+| **UFS 2.0**   | ~350         | ~150–200         | 300–400 TBW      | ~5,000            | Mid-range (2016+)         |
+| **UFS 2.1**   | ~800         | ~250–300         | 400–600 TBW      | ~10,000           | Upper mid-range           |
+| **UFS 3.0**   | ~1500        | ~400–500         | 600–800 TBW      | ~10,000–20,000    | High-end (2019+)          |
+| **UFS 3.1**   | ~2100        | ~700–1200        | 800–1000 TBW     | ~20,000           | Premium (2020+)           |
+| **UFS 4.0**   | ~4200        | ~2800            | 1000–2000 TBW    | 20,000–30,000     | Flagship (2023+)          |
+
 
 </br> <h2>🚨 Disclaimer 🚨</h2>
 
